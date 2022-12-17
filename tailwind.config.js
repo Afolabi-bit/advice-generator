@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/*/*.js", "./src/*.html"],
+  content: ["./src/*/*.js", "index.html"],
   theme: {
     letterSpacing: {
       tightest: '-.075em',
