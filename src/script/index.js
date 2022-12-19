@@ -7,7 +7,6 @@ const getAdvice = () => {
     .then(res => res.json())
     .then((data) => {
         displayAdvice(data.slip.id, data.slip.advice)
-        console.log(data.slip)
     })
 }
 
